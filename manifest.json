@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "bakugo.protonvpn",
+  "name": "Proton VPN",
+  "version": "1.0.0",
+  "description": "Proton VPN connection status and current CLI settings in the Omarchy bar.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Proton VPN",
+    "description": "Proton VPN connection status and current CLI settings in the Omarchy bar.",
+    "category": "Network",
+    "aliases": [
+      "protonvpn",
+      "proton-vpn"
+    ],
+    "allowMultiple": false
+  },
+  "author": "CallMeBakugo",
+  "license": "MIT"
+}
